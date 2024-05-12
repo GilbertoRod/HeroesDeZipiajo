@@ -1,0 +1,122 @@
+.donationsContainer{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(235, 234, 234);
+    color: black;
+    padding: 160px 0px 60px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donationsInnerContainer{
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 1500px;
+}
+
+.donationsInnerContainer hr{
+
+    border-radius: 12px;
+
+}
+.donationsContentContainer{
+
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 1400px;
+    padding: 40px;
+    width: 100%;
+    border-radius: 20px;
+}
+.pageTitle{
+    color: rgb(198, 56, 56);
+    font-size: 120px;
+    font-family: Lilita One;
+    margin: 0px;
+
+}
+.subHeading{
+    color: rgb(251, 251, 251);
+    font-size: 100px;
+    font-family: 'Lilita One';
+    margin-top: 0px;
+}
+.description{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'oxygen', Arial, sans-serif;
+    margin-top: 40px;
+}
+.tableContent{
+    margin-top: 0px;
+    background-color: rgb(206, 17, 37);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 60px 80px 160px 80px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+}
+.innerTableContent{
+    width: 100%;
+    max-width: 1500px;
+}
+.table{
+    max-width: 1920px;
+}
+
+
+@media screen and (max-width: 760px) {
+.pageTitle{
+    font-size: 100px;
+}
+.donationsInnerContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.subHeading{
+    font-size: 80px;
+}
+.tableContent{
+    padding: 30px 20px 160px 20px;
+    padding-bottom: 160px;
+}
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .pageTitle{
+        font-size: 80px;
+    }
+    .subHeading{
+        font-size: 60px;
+    }
+    }
+
+@media screen and (max-width: 460px) {
+    .pageTitle{
+        font-size: 70px;
+    }
+    .subHeading{
+        font-size: 40px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    }
+
+    @media screen and (max-width: 400px) {
+        .pageTitle{
+            font-size: 55px;
+        }
+        .subHeading{
+            font-size: 40px;
+        }
+        .description{
+            font-size: 15px;
+        }
+    }

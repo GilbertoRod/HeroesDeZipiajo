@@ -1,0 +1,90 @@
+.container{
+    background-color: rgb(136, 191, 209);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: oxygen,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.formcontainer{
+    background-color: rgb(31, 156, 145);
+    border: 1px solid rgba(64, 61, 61, 0.459);
+    box-shadow: 1px 1px 9px rgba(46, 42, 42, 0.502);
+    margin-top: 0px;
+    min-height: 480px;
+    min-width: 40px;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: space-between;
+    
+}
+.formtitle{
+    color: rgb(20, 44, 88);
+    margin: 0px;
+    font-size: 70px;
+    margin-bottom: 0px;
+    font-family: Lilita One;
+
+}
+.info{
+    margin-top: 0px;
+
+}
+.usernamecontainer, .passwordcontainer{
+    font-size: 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.formcontainer div input{
+    width: 100%;
+    max-width: 190px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.usernamecontainer label, .passwordcontainer label{
+    margin-right: 20px;
+}
+
+.submitBtn{
+width: 140px;
+font-size: 25px;
+margin-top: 0px;
+border-radius: 20px;
+border: none;
+padding: 12px;
+color: white;
+background-color: rgb(20, 44, 88);
+cursor: pointer;
+}
+.logoutBtn{
+    width: 140px;
+    font-size: 25px;
+    margin-top: 0px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: rgb(116, 24, 42);
+    cursor: pointer;
+}

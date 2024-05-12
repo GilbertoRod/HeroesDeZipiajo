@@ -1,0 +1,134 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  z-index: 100;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+
+.nav-container{
+    background-color: rgba(20, 44, 88, 0.878);
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1050px;
+
+    padding:0 20px;
+    border: .5px solid rgba(255, 255, 255, 0.329);
+    transition: box-shadow .3s;
+
+
+
+
+    
+
+    
+  }
+.nav-container:hover{
+  background-color: rgb(20, 44, 88);
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.857);
+  transition: background-color .3s;
+  
+}
+
+
+
+  
+
+
+
+a{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+
+.nav-inner-container{
+
+}
+
+
+.nav-list{
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+.nav-active-page{
+  text-decoration: none;
+  cursor:default;
+}
+.underline-div{
+  width: 107%;
+  background-color: rgb(240, 56, 74);
+  height: 3px;
+}
+
+.nav-inactive-page {
+  text-decoration: none;
+  cursor: pointer;
+}
+.inactive-underline-div{
+  animation: fadeDivOut 1s;
+}
+@keyframes fadeDivOut {
+  0%{
+    width: 107%;
+    background-color: rgb(240, 56, 74);
+    height: 3px;
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+
+  }
+}
+
+
+.nav-inactive-page:hover{
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.747);
+}
+
+
+
+
+
+
+@media  screen and (max-width:760px) {
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+}
+
+
+@media  screen and (max-width:440px) {
+  .container{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nav-container{
+    padding: 0px;
+  }
+
+  .nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+  }
+  
+}

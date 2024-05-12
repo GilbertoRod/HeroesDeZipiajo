@@ -1,0 +1,77 @@
+
+.hero-body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(0, 104, 71);
+    min-height: 505px;
+    padding: 180px 20px 70px 20px;
+
+}
+
+
+
+.hero-title{
+    color: rgb(238, 228, 229);
+    z-index: 2;
+    font-size: 170px;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    font-family: Lilita One, Lobster,"Arial";
+    
+    
+}
+.hero-subtitle{
+    color: rgb(240, 56, 74);
+    font-style:italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+.hero-image-autism{
+    width: 300px;
+    transform:rotate(-40deg);
+    z-index: 1;
+    position:relative;
+    left: -90px;
+    top: -25px;
+  
+}
+.hero-image-downsyndrome{
+    width: 300px;
+    transform:rotate(40deg);
+    position:relative;
+    right: -90px;
+    z-index: 1;
+
+
+}
+
+
+
+.donate-btn{
+    cursor: pointer;
+    font-size: 50px;
+    background-color: rgb(240, 56, 74);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    font-family: Lilita One, Shadows Into Light;
+    
+}
+.btn-div{
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .hero-title{
+        font-size: 100px;
+    }
+}

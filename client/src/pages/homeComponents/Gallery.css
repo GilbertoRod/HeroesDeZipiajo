@@ -1,0 +1,68 @@
+.gallery-body {
+
+  background-color: rgb(206, 17, 37);
+  color: rgb(255, 248, 248);
+  padding-bottom: 100px;
+}
+
+.gallery-title {
+  background-color: rgb(206, 17, 37);
+  color: rgb(255, 248, 248);
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 100px;
+  font-family: Lilita One, Lobster, "Arial";
+  font-size: 80px;
+}
+
+.card-container {
+  padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.carousel-slider {
+  max-width: 1000px; /* Set the maximum width of the carousel */
+  cursor:grab;
+  width: 100%; 
+}
+.carousel-slider:active{
+  cursor: grabbing;
+}
+
+
+.card{
+  margin: 0 10px;
+}
+.right-carousel-arrow{
+  background-color: rgba(20, 44, 88, 0.103);
+  padding: 40px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 30px;
+  display: none;
+}
+.left-carousel-arrow{
+  background-color: rgba(20, 44, 88, 0.089);
+  padding: 40px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 30px;
+  display: none;
+}
+
+.left-carousel-arrow:hover,.right-carousel-arrow:hover{
+  background-color: rgba(104, 6, 35, 0.363);
+}
+
+
+@media screen and (max-width: 760px) {
+
+.gallery-title{
+  padding: 100px 20px;
+  font-size: 60px;
+}
+
+}

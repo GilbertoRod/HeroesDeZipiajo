@@ -1,0 +1,27 @@
+.about-body{
+    margin: 0px 0px;
+    padding: 100px;
+    text-align: left;
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+    
+}
+.about-body p{
+    font-size: 20px;
+    
+
+}
+.about-container p{
+    font-size: 20px;
+
+}
+.about-title{
+    font-family: Lilita One, Lobster,"Arial";
+    font-size: 80px;
+}
+@media screen and (max-width: 760px) {
+    .about-body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
