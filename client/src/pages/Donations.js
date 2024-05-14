@@ -14,11 +14,11 @@ function Donations({authorizedUser}) {
   
   return (
     <>
-        <div className={donationStyles.donationsContainer} style={authorizedUser&&{backgroundColor:"#2e61d1"}} >
+        <div className={donationStyles.donationsContainer} style={authorizedUser&&{backgroundColor:"rgb(206, 17, 37)"}} >
           <div className={donationStyles.donationsInnerContainer}>
             {authorizedUser?
             <>
-            <h1 data-aos="zoom-in" className={donationStyles.pageTitle} style={{color:"#BD4249",textShadow:"0 0 5px rgba(0, 0, 0, 0.9),0 0 5px rgba(255, 255, 255, 0.4)"}}>Keep Track of The Donations!</h1>
+            <h1 data-aos="zoom-in" className={donationStyles.pageTitle} style={{color:"white",textShadow:"0 0 5px rgba(0, 0, 0, 0.9),0 0 5px rgba(255, 255, 255, 0.4)"}}>Keep Track of The Donations!</h1>
             <p className={donationStyles.description} style={{color:"white"}}>This Page is only visible to you, the Admin. It's designed to help you keep track of all of the donations of the sponsors. All changes made are automatically saved! A new Table will be added automatically every year, all you have to do is simply add the names of the participants for the corresponding year and insert the amounts that they donated for each month </p>
             </>
             
@@ -39,14 +39,14 @@ function Donations({authorizedUser}) {
             }
           </div>
           </div>
-          <div className={donationStyles.tableContent} style={authorizedUser&&{backgroundColor:"#D88A27",color:"black"}}>
+          <div className={donationStyles.tableContent} style={authorizedUser&&{backgroundColor:"rgb(235, 234, 234)"}}>
             
             <div className={donationStyles.innerTableContent} >
 
 
             
               { authorizedUser?
-              <p className={donationStyles.subHeading }>Manage the donations down below!</p>
+              <p className={donationStyles.subHeading } style={{color:'rgb(198, 56, 56)'}}>Manage the donations down below!</p>
               :
               <p className={donationStyles.subHeading}>Check Out Our Yearly Donations!</p>
               }
